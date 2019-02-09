@@ -188,6 +188,7 @@
 					};
 					FAD1C75C1B2F57D60053D880 = {
 						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = 229UWY5K4P;
 						LastSwiftMigration = 0800;
 						TestTargetID = FAD1C7471B2F57D60053D880;
 					};
@@ -417,6 +418,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 229UWY5K4P;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -438,6 +440,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 229UWY5K4P;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
