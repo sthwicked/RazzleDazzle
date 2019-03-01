@@ -7,44 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FA0895751B3F1A37002460BB /* RazzleDazzle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA0895741B3F1A37002460BB /* RazzleDazzle.framework */; };
-		FA0895761B3F1A37002460BB /* RazzleDazzle.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FA0895741B3F1A37002460BB /* RazzleDazzle.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		FA6AC6DD1B3DF6690053688A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA6AC6DB1B3DF6690053688A /* LaunchScreen.storyboard */; };
-		FAD1C74E1B2F57D60053D880 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD1C74D1B2F57D60053D880 /* AppDelegate.swift */; };
-		FAD1C7501B2F57D60053D880 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD1C74F1B2F57D60053D880 /* ViewController.swift */; };
-		FAD1C7531B2F57D60053D880 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAD1C7511B2F57D60053D880 /* Main.storyboard */; };
-		FAD1C7551B2F57D60053D880 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAD1C7541B2F57D60053D880 /* Images.xcassets */; };
 		FAD1C7641B2F57D60053D880 /* RazzleDazzleDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD1C7631B2F57D60053D880 /* RazzleDazzleDemoTests.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		FAD1C75E1B2F57D60053D880 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = FAD1C7401B2F57D60053D880 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = FAD1C7471B2F57D60053D880;
-			remoteInfo = RazzleDazzleDemo;
-		};
-/* End PBXContainerItemProxy section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		FA0895771B3F1A37002460BB /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				FA0895761B3F1A37002460BB /* RazzleDazzle.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		FA0895741B3F1A37002460BB /* RazzleDazzle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RazzleDazzle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA6AC6DC1B3DF6690053688A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		FAD1C7481B2F57D60053D880 /* RazzleDazzleDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RazzleDazzleDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAD1C74C1B2F57D60053D880 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FAD1C74D1B2F57D60053D880 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FAD1C74F1B2F57D60053D880 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,14 +24,6 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		FAD1C7451B2F57D60053D880 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FA0895751B3F1A37002460BB /* RazzleDazzle.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		FAD1C75A1B2F57D60053D880 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -87,7 +47,6 @@
 		FAD1C7491B2F57D60053D880 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FAD1C7481B2F57D60053D880 /* RazzleDazzleDemo.app */,
 				FAD1C75D1B2F57D60053D880 /* RazzleDazzleDemoTests.xctest */,
 			);
 			name = Products;
@@ -134,24 +93,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FAD1C7471B2F57D60053D880 /* RazzleDazzleDemo */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = FAD1C7671B2F57D60053D880 /* Build configuration list for PBXNativeTarget "RazzleDazzleDemo" */;
-			buildPhases = (
-				FAD1C7441B2F57D60053D880 /* Sources */,
-				FAD1C7451B2F57D60053D880 /* Frameworks */,
-				FAD1C7461B2F57D60053D880 /* Resources */,
-				FA0895771B3F1A37002460BB /* Embed Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = RazzleDazzleDemo;
-			productName = RazzleDazzleDemo;
-			productReference = FAD1C7481B2F57D60053D880 /* RazzleDazzleDemo.app */;
-			productType = "com.apple.product-type.application";
-		};
 		FAD1C75C1B2F57D60053D880 /* RazzleDazzleDemoTests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = FAD1C76A1B2F57D60053D880 /* Build configuration list for PBXNativeTarget "RazzleDazzleDemoTests" */;
@@ -163,7 +104,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				FAD1C75F1B2F57D60053D880 /* PBXTargetDependency */,
 			);
 			name = RazzleDazzleDemoTests;
 			productName = RazzleDazzleDemoTests;
@@ -180,12 +120,6 @@
 				LastUpgradeCheck = 1000;
 				ORGANIZATIONNAME = IFTTT;
 				TargetAttributes = {
-					FAD1C7471B2F57D60053D880 = {
-						CreatedOnToolsVersion = 6.3.2;
-						DevelopmentTeam = 229UWY5K4P;
-						DevelopmentTeamName = "Raphael Cruzeiro (Personal Team)";
-						LastSwiftMigration = 0800;
-					};
 					FAD1C75C1B2F57D60053D880 = {
 						CreatedOnToolsVersion = 6.3.2;
 						DevelopmentTeam = 229UWY5K4P;
@@ -207,23 +141,12 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FAD1C7471B2F57D60053D880 /* RazzleDazzleDemo */,
 				FAD1C75C1B2F57D60053D880 /* RazzleDazzleDemoTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		FAD1C7461B2F57D60053D880 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FA6AC6DD1B3DF6690053688A /* LaunchScreen.storyboard in Resources */,
-				FAD1C7531B2F57D60053D880 /* Main.storyboard in Resources */,
-				FAD1C7551B2F57D60053D880 /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		FAD1C75B1B2F57D60053D880 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -234,15 +157,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		FAD1C7441B2F57D60053D880 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FAD1C7501B2F57D60053D880 /* ViewController.swift in Sources */,
-				FAD1C74E1B2F57D60053D880 /* AppDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		FAD1C7591B2F57D60053D880 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -252,14 +166,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		FAD1C75F1B2F57D60053D880 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = FAD1C7471B2F57D60053D880 /* RazzleDazzleDemo */;
-			targetProxy = FAD1C75E1B2F57D60053D880 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		FA6AC6DB1B3DF6690053688A /* LaunchScreen.storyboard */ = {
@@ -384,40 +290,11 @@
 			};
 			name = Release;
 		};
-		FAD1C7681B2F57D60053D880 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				DEVELOPMENT_TEAM = 229UWY5K4P;
-				INFOPLIST_FILE = RazzleDazzleDemo/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "ifttt.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		FAD1C7691B2F57D60053D880 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				DEVELOPMENT_TEAM = 229UWY5K4P;
-				INFOPLIST_FILE = RazzleDazzleDemo/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "ifttt.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 		FAD1C76B1B2F57D60053D880 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEVELOPMENT_TEAM = 229UWY5K4P;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -440,6 +317,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEVELOPMENT_TEAM = 229UWY5K4P;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -462,15 +340,6 @@
 			buildConfigurations = (
 				FAD1C7651B2F57D60053D880 /* Debug */,
 				FAD1C7661B2F57D60053D880 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		FAD1C7671B2F57D60053D880 /* Build configuration list for PBXNativeTarget "RazzleDazzleDemo" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				FAD1C7681B2F57D60053D880 /* Debug */,
-				FAD1C7691B2F57D60053D880 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
